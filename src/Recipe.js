@@ -1,10 +1,15 @@
-
-const Recipe = ({label, image, calories}) => {
+import style from "./recipe.module.css";
+const Recipe = ({label, image, calories, ingredients}) => {
   return(
-      <div>
+      <div className={style.recipe}>
           <h1>{label}</h1>
-          <p>Calories: {calories}</p>
-          <img src={image} alt={label} />
+          <ul>
+                {ingredients.map((ingredient,index) => (
+                    <li key={index}>{ingredient.text}</li>
+                ))}
+          </ul>
+          <p>Calories: {Math.floor(calories)}kcal</p>
+          <img className={style.image} src={image} alt={label} />
       </div>
   )
 };

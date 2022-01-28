@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.recipe{
+    font-family: 'Poppins', sans-serif;;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(239, 187, 243);
+    align-items: center;
+    min-width: 50%; 
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
