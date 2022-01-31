@@ -4,9 +4,9 @@
 
 #### This Edamam recipe API has the data of tens of thousands of foods, including international dishes.
 
--React.js, Hooks, JavaScript 
--Components, props, css
--Asynchronous API (async/await)
+> - React.js, Hooks, JavaScript 
+> - Components, props, css
+> - Asynchronous API (async/await)
 
 ![](images/images2.PNG)
 
