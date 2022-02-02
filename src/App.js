@@ -10,7 +10,7 @@ function App() {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("chicken noodles soup");
+  const [query, setQuery] = useState("croissant");
 
   useEffect(() => {
     getRecipes();
